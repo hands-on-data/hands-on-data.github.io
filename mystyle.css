@@ -1,18 +1,24 @@
+algo_list {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
-body{
-  width:100%;
-  height: 100%;
+.custom {
+  width: 275px !important;
 }
-.image {
-  text-align: center;
-  background-image: url("./linear_regression/machine_learning_data_science-1.png");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 1800px;
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #444444;
+  font-size: 9pt;
+  background-color: #fafafa;
 }
-h1{
+
+h1 {
   color: rgb(8, 8, 8);
   text-align: center;
 }
