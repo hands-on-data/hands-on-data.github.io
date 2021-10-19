@@ -1,13 +1,12 @@
-.image {
-    text-align: center;
-    background-image: url("machine_learning_data_science-1.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 1800px;
-  }
-  h1,h4{
-    color: rgb(8, 8, 8);
-    text-align: center;
-  }
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #444444;
+  font-size: 9pt;
+  background-color: #fafafa;
+}
+
+h1,
+h4 {
+  color: rgb(8, 8, 8);
+  text-align: center;
+}
