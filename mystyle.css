@@ -32,12 +32,12 @@ h1 {
 
 .navbar * {
   box-sizing: border-box;
-  transition: all .30s ease;
+  transition: all 0.3s ease;
 }
 
 .navbar a {
-  padding: .5em .8em;
-  color: rgba(255,255,255,.5);
+  padding: 0.5em 0.8em;
+  color: rgba(255, 255, 255, 0.5);
   position: relative;
   text-decoration: none;
   font-size: 20px;
@@ -45,38 +45,86 @@ h1 {
 
 .navbar a::before,
 .navbar a::after {
-  content: '';
+  content: "";
   height: 12px;
   width: 12px;
   position: absolute;
-  transition: all .35s ease;
+  transition: all 0.35s ease;
   opacity: 0;
 }
 
 .navbar a::before {
-  content: '';
+  content: "";
   right: 0;
   top: 0;
-  border-top: 3px solid #3E8914;
-  border-right: 3px solid #2E640F;
+  border-top: 3px solid #3e8914;
+  border-right: 3px solid #2e640f;
   transform: translate(-100%, 50%);
 }
 
 .navbar a:after {
-  content: '';
+  content: "";
   left: 0;
   bottom: 0;
-  border-bottom: 3px solid #2E640F;
-  border-left: 3px solid #3E8914;
-  transform: translate(100%, -50%)
+  border-bottom: 3px solid #2e640f;
+  border-left: 3px solid #3e8914;
+  transform: translate(100%, -50%);
 }
 
 .navbar a:hover:before,
-.navbar a:hover:after{
-  transform: translate(0,0);
+.navbar a:hover:after {
+  transform: translate(0, 0);
   opacity: 1;
 }
 
 .navbar a:hover {
   color: #3e9af0;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 25%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.uncollapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 125%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  display: block;
+  text-align: left;
+}
+
+.active,
+.uncollapsible:hover,
+.collapsible:hover {
+  background-color: #555;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  padding: 0 18px;
+  width: 25%;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+#link {
+  text-decoration: none;
+  color: #f1f1f1;
 }
