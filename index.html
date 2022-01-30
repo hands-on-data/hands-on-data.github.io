@@ -1,18 +1,13 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
-    <meta content="utf-8" http-equiv="encoding" />
-    <title>Data Science Demo</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HandsOnData</title>
     <link
       href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"
       rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
     />
     <link
       rel="stylesheet"
@@ -20,11 +15,12 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <body>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
     <nav
       class="
         navbar navbar-expand-lg
@@ -36,7 +32,7 @@
       "
     >
       <div class="container">
-        <a href="index.html" class="navbar-brand">
+        <a href="home.html" class="navbar-brand">
           <!-- Logo Image -->
           <img
             src="logo.jpg"
@@ -62,91 +58,47 @@
 
         <div id="navbarSupportedContent" class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a href="index.html" class="nav-link"
+            <li class="nav-item active">
+              <a href="home.html" class="nav-link"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
               <a href="about.html" class="nav-link">About</a>
             </li>
+            <li class="nav-item">
+              <a href="resources.html" class="nav-link">Resources</a>
+            </li>
           </ul>
         </div>
       </div>
+      
     </nav>
-
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-</head>
-<body>
-
-<button type="button" class="collapsible">Data Visualization and Preprocessing</button>
-<div class="content">
-  <button type="button" class="uncollapsible"><a id="link" href="https://colab.research.google.com/github/karmakarsubhajit/ColabDemo/blob/main/Data_Visualization.ipynb">Data Visualization</a></button>
-  <button type="button" class="uncollapsible" ><a id="link" href="https://colab.research.google.com/github/karmakarsubhajit/ColabDemo/blob/main/Data_Preprocessing.ipynb">Data Preprocessing</a></button>
-</div>
-
-<br>
-
-<button type="button" class="collapsible">Regression</button>
-<div class="content">
-  <button type="button" class="uncollapsible"><a id="link" href="./linear_regression/index.html">Linear Regression</button>
-  <button type="button" class="uncollapsible"><a id="link" href="#">Item 2</a></button>
-  <button type="button" class="uncollapsible"><a id="link" href="#">Item 3</a></button>
-</div>
-<br>
-<button type="button" class="collapsible">Clustering</button>
-<div class="content">
-  <button type="button" class="uncollapsible"><a id="link" href="k_means_clustering/k_means.html">K Means Clustering</a></button>
-  <button type="button" class="uncollapsible"><a id="link" href="#">Algo 2</a></button>
-  <button type="button" class="uncollapsible"><a id="link" href="#">Algo 3</a></button>
-</div>
-<br>
-<button type="button" class="collapsible">Classification</button>
-<div class="content">
-  <button type="button" class="uncollapsible"><a id="link" href="#">Algo 1</a></button>
-  <button type="button" class="uncollapsible"><a id="link" href="#">Algo 2</a></button>
-  <button type="button" class="uncollapsible"><a id="link" href="#">Algo 3</a></button>
-</div>
-
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        <div class="first_page-container">
+          <div class ="heading">
+             <h1 style="color: white; margin-top:30px; margin-bottom: 10px; font-size: 50px;"><b>Welcome to HandsOnData</b></h1>
+          </div>
+          <br>
+          <br>
+          <div class="content-list">
+            <ul>
+              <i class="fa fa-check-circle" style="font-size:36px;color:#53ff1a"><span style="color: white; font-size: 23px;">    One Stop Solution to Learn Data Science.</span></i>
+              <br>
+              <br>
+              <i class="fa fa-check-circle" style="font-size:36px;color:#53ff1a"><span style="color: white; font-size: 23px;">   Learn from our user-friendly and easy to follow tutorials. </span></i>
+              <br>
+              <br>
+              <i class="fa fa-check-circle" style="font-size:36px;color:hsl(105, 100%, 55%)"><span style="color: white; font-size: 23px;"> Hands On Experience of creating Machine Learning Models. </span></i>
+              <br>
+              <br>
+              <i class="fa fa-check-circle" style="font-size:36px;color:#53ff1a"><span style="color: white; font-size: 23px;">   Get access to different resources to learn Data Science.</span></i>
+              <br>
+              <br>
+            </ul>
+          </div>
+          <br>
+          <a type="button" class="btn btn-primary btn-lg" href="home.html">Let's Get Started</a>
+        </div>
+        <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+</body>
 </html>
