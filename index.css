@@ -1,8 +1,7 @@
 
 
-body {
-    background: rgb(85, 82, 82);
-    color: #666666;
+html {
+    background:  rgba(0, 0, 0, 0.71);
     font-family: "Open Sans", sans-serif;
   }
   
@@ -91,8 +90,8 @@ body {
   }
 
   .content-list{
-    padding-left: 465px;
-    padding-right: 360px;
+    padding-left: 380px;
+    padding-right: 347px;
     text-align: left;
   }
 
