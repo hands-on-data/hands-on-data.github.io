@@ -18,4 +18,3 @@
 4) Copy and paste this div again to add your tutorial.
 5) Edit the fields this div element named card to add the tutorial name, the link of the tutorial, and the contributors name.
 6) Commit your changes
-
