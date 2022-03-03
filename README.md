@@ -1,7 +1,7 @@
 # hands-on-data.github.io
 Steps to contribute to our Contributions page of our project
 
-1) Go to the following REPO LINK
+1) Make sure you are in the repo https://github.com/hands-on-data/hands-on-data.github.io
 2) Click on the Contributions folder
 3) Click on the contributions.html file
 4) In the file contributions.html there is a div named card
