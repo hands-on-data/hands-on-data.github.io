@@ -9,5 +9,5 @@ Steps to contribute to our Contributions page of our project
 6) Edit the fields inside the HTML elements named card-header and card-body
 7) Commit your changes
 
-Steps to contribute to the README page of our project
+Steps to contribute to the Resources page of our project
 
