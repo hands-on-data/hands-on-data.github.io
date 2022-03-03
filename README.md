@@ -8,3 +8,6 @@ Steps to contribute to our Contributions page of our project
 5) Copy the div named card and paste it again below the other divs
 6) Edit the fields inside the HTML elements named card-header and card-body
 7) Commit your changes
+
+Steps to contribute to the README page of our project
+
