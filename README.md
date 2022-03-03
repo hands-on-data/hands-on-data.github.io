@@ -1,6 +1,6 @@
 # Instructions to contribute to our project
 
-Steps to contribute to our Contributions page of our project
+Steps to contribute to the Contributions page of our project
 
 1) Make sure you are in the repo https://github.com/hands-on-data/hands-on-data.github.io
 2) Click on the Contributions folder
