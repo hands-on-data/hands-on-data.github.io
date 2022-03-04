@@ -43,5 +43,5 @@
 9) Now go the file home.html.
 10) In this file home.html, first find the div element with **id=sidemenu**.
 11) Inside this div, find the contributed notebooks button
-12) Inside this contributed notebooks button, you will find different <a> tags.
+12) Inside this contributed notebooks button, you will find different /<a/> tags.
 13) Past the url inside the href of <a> tag and rename the text inside the <a> tag corresponding to your notebook name.
