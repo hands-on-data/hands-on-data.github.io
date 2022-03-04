@@ -30,13 +30,15 @@
 
 ## Steps to contribute to the Contributions page of our project [for the admin]
 
-1)
-2) Go to the following Colab tools link https://colab.research.google.com/github/googlecolab/colabtools/
-3) A dialogue box will open
-4) There will be a search bar with heading /**Enter a GitHub URL or search by organization or user**/.  
-5) Paste the link https://github.com/hands-on-data/ColabFiles, in this mentioned search bar and hit enter.
-6) There will be a list of all the colab notebooks displayed.
-7) Select your colab notebook from the list
-8) It will open a new GitHub hosted colab.
-9) Copy the url and save it somewhere.
-10) 
+1) Go to the following Colab tools link https://colab.research.google.com/github/googlecolab/colabtools/
+2) A dialogue box will open
+3) There will be a search bar with heading /**Enter a GitHub URL or search by organization or user**/.  
+4) Paste the link https://github.com/hands-on-data/ColabFiles, in this mentioned search bar and hit enter.
+5) There will be a list of all the colab notebooks displayed.
+6) Select your colab notebook from the list
+7) It will open a new GitHub hosted colab.
+8) Copy the url and save it somewhere.
+9) Now go the file home.html.
+10) In this file home.html, first find the div element with /**id=sidemenu**/.
+11) Inside this div, find the contributed notebooks button
+12) 
