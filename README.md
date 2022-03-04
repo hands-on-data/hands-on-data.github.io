@@ -34,7 +34,7 @@
 
 1) Go to the following Colab tools link https://colab.research.google.com/github/googlecolab/colabtools/
 2) A dialogue box will open
-3) There will be a search bar with heading /**Enter a GitHub URL or search by organization or user**/.  
+3) There will be a search bar with heading **Enter a GitHub URL or search by organization or user**.  
 4) Paste the link https://github.com/hands-on-data/ColabFiles, in this mentioned search bar and hit enter.
 5) There will be a list of all the colab notebooks displayed.
 6) Select your colab notebook from the list
