@@ -100,12 +100,10 @@
         </div>
 
       <br>
-
+      
       <button type="button" class="collapsible">Regression</button>
         <div class="content">
-          <button type="button" class="uncollapsible"><a id="link" href="./linear_regression/index.html">Linear Regression</button>
-          <button type="button" class="uncollapsible"><a id="link" href="#">Item 2</a></button>
-          <button type="button" class="uncollapsible"><a id="link" href="#">Item 3</a></button>
+          <div class="uncollapsible" ><a id="link" href="./linear_regression/index.html">Data Visualization</a></div>
         </div>
 
       <br>
@@ -114,7 +112,6 @@
         <div class="content">
           <button type="button" class="uncollapsible"><a id="link" href="k_means_clustering/k_means.html">K Means Clustering</a></button>
           <button type="button" class="uncollapsible"><a id="link" href="DBSCAN/DBSCAN.html">DBSCAN</a></button>
-          <button type="button" class="uncollapsible"><a id="link" href="#">Algo 3</a></button>
         </div>
 
       <br>
@@ -122,8 +119,9 @@
       <button type="button" class="collapsible">Classification</button>
         <div class="content">
           <button type="button" class="uncollapsible"><a id="link" href="naive_bayes/naive_bayes.html">Naive Bayes</a></button>
-          <button type="button" class="uncollapsible"><a id="link" href="https://colab.research.google.com/github/hands-on-data/ColabFiles/blob/main/Logistic_Regression_Tutorial.ipynb">Logistic Regression</a></button>
-          <button type="button" class="uncollapsible"><a id="link" href="https://colab.research.google.com/github/hands-on-data/ColabFiles/blob/main/Decision_Tree_Tutorial.ipynb">Decision Tree</a></button>
+          <button type="button" class="uncollapsible"><a id="link" href="./logistic_regression/logistic_regression.html">Logistic Regression</a></button>
+          <button type="button" class="uncollapsible"><a id="link" href="./Decision_Tree/decision_tree.html">Decision Tree</a></button>
+          <button type="button" class="uncollapsible"><a id="link" href="./Decision_Tree/decision_tree.html">Random Forest</a></button>
         </div>
       
       <br>
@@ -192,6 +190,7 @@ for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var content = this.nextElementSibling;
+    console.log(content);
     if (content.style.display === "block") {
       content.style.display = "none";
     } else {
