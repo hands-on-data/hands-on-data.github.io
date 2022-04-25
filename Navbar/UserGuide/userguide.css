@@ -54,3 +54,8 @@
   .navbar a:hover {
     color: #3e9af0;
   }
+
+  #steps{
+    font-size: large;
+    margin-left: 50px;
+}  
