@@ -3,7 +3,7 @@
 ## Steps to contribute to the Contributions page of our project [for the contributor]
 
 1) Fork the repo https://github.com/hands-on-data/hands-on-data.github.io.
-2) Click on the Contributions folder.
+2) Click on the /Navbar/Contributions/ folder.
 3) Click on the contributions.html file.
 4) In the file contributions.html there is a div named card.
 5) Copy the div named card and paste it again below the other divs.
@@ -14,7 +14,7 @@
 ## Steps to contribute to the Resources page of our project [for the contributor]
 
 1) Fork the repo https://github.com/hands-on-data/hands-on-data.github.io.
-2) Click on the resources.html file.
+2) Click on the /Navbar/Resources/resources.html file.
 3) In the file resources.html there is a div named card.
 4) Copy and paste this div again to add your tutorial.
 5) Edit the fields this div element named card to add the tutorial name, the link of the tutorial, and the contributors name.
@@ -40,8 +40,8 @@
 6) Select your colab notebook from the list
 7) It will open a new GitHub hosted colab.
 8) Copy the url and save it somewhere.
-9) Now go the file home.html.
-10) In this file home.html, first find the div element with **id=sidemenu**.
+9) Now go the file /Navbar/Home/home.html.
+10) In this file /Navbar/Home/home.html, first find the div element with **id=sidemenu**.
 11) Inside this div, find the contributed notebooks button
 12) Inside this contributed notebooks button, you will find different ``` <a> ``` tags.
 13) Past the url inside the href of ``` <a> ``` tag and rename the text inside the ``` <a> ``` tag corresponding to your notebook name.
